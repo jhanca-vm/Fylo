@@ -68,6 +68,7 @@
     font-weight: 700;
     font-size: 14px;
     outline: none;
+    cursor: pointer;
   }
 
   img {

@@ -2,6 +2,8 @@
 	import Header from '../components/Header.svelte';
 	import Hero from '../components/Hero.svelte';
 	import Description from '../components/Description.svelte';
+	import Promo from '../components/Promo.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -10,6 +12,8 @@
 <Header />
 <Hero />
 <Description />
+<Promo />
+<Footer />
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
