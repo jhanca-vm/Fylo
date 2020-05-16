@@ -1,11 +1,5 @@
-### Running the project
+### Fylo
 
-However you get the code, you can install dependencies and run the project in development mode with:
+A frontened mentor challenge, which I carried out with the Svelte framework.
 
-```bash
-cd Fylo
-npm install # or yarn
-npm run dev
-```
-
-Open up [localhost:3000](http://localhost:3000) and start clicking around.
+![](https://res.cloudinary.com/dz209s6jk/image/upload/v1554378729/Challenges/alno0v75fow4xueknwtu.jpg)
