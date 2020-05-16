@@ -66,4 +66,33 @@
     outline: none;
     cursor: pointer;
  }
+
+ @media screen and (max-width: 1024px) {
+   .Promo {
+     padding: 60px 0 75px;
+   }
+
+   .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+   }
+
+   .Promo__text h2 {
+     font-size: 24px;
+   }
+   .Promo__text p {
+     width: initial;
+   }
+   .Promo__input {
+     margin-top: 25px;
+     padding-left: 0;
+     align-items: center;
+   }
+   .Promo__input input {
+     width: 80%;
+   }
+   .Promo__input button {
+     width: 80%;
+   }
+ } 
 </style>

@@ -76,4 +76,32 @@
     padding-left: 25px;
     box-sizing: border-box;
   }
+
+  @media screen and (max-width: 1024px) {
+    .container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    img {
+      grid-area: 1;
+      padding: 0 20px 20px;
+    }
+
+    .Hero__description h1 {
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+    }
+    .Hero__description--input {
+      display: flex;
+      flex-direction: column;
+    }
+    .Hero__description--input input {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .Hero__description--input button {
+      width: 100%;
+      margin: 20px 0;
+    }
+  }
 </style>

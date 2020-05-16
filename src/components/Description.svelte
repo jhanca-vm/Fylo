@@ -73,7 +73,7 @@
   }
 
   .card {
-    width: 295px;
+    width: 285px;
     margin-top: 30px;
     padding: 30px 38px;
     font-size: 14px;
@@ -109,5 +109,41 @@
     margin: 0;
     margin-top: -6px;
     font-size: 12px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .Description {
+      margin-top: 30px;
+      padding-bottom: 65px;
+      background-image: url(../../images/bg-curve-mobile.svg);
+    }
+
+    .container {
+      grid-template-columns: 1fr;
+      padding-top: 30px;
+    }
+
+    .illustration {
+      grid-area: 1;
+      margin-bottom: 30px;
+    }
+
+    .text h1 {
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      text-align: center;
+    }
+    .text p {
+      width: initial;
+    }
+    .text a {
+      justify-content: center;
+      margin-top: 15px;
+    }
+
+    .card {
+      margin: auto;
+      margin-top: 30px;
+    }
   }
 </style>

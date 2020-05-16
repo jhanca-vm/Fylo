@@ -2,7 +2,7 @@
   <div class="container">
     <h1>Fylo</h1>
     <div class="footer__sections">
-      <div>
+      <div class="contact">
         <span>
           <figure>
             <img src="images/icon-phone.svg" alt="icon phone">
@@ -22,7 +22,7 @@
         <a href="/">Press</a>
         <a href="/">Blog</a>
       </div>
-      <div class="links">
+      <div class="links info">
         <a href="/">Contact Us</a>
         <a href="/">Terms</a>
         <a href="/">Privacy</a>
@@ -77,5 +77,28 @@
     text-decoration: none;
     color: white;
     margin-bottom: 15px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    footer {
+      padding: 30px 0;
+    }
+
+    footer h1 {
+      text-align: center;
+    }
+
+    .contact {
+      margin: auto;
+      margin-top: 0;
+    }
+
+    .footer__sections {
+      grid-template-columns: 1fr 1fr;
+    }
+    .footer__sections .links, .social {
+      align-self: center;
+      justify-self: center;
+    }
   }
 </style>

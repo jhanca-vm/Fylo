@@ -33,4 +33,10 @@
 		margin: auto;
 		padding: 0 75px;
 	}
+
+	@media screen and (max-width: 1024px) {
+		:global(.container) {
+			padding: 0 25px;
+		}
+	}
 </style>
